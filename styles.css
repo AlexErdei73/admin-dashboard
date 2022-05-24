@@ -6,7 +6,7 @@
   height: 100vh;
   background: slategray;
   display: grid;
-  grid-template-columns: max(180px, 20%) 4fr;
+  grid-template-columns: max(180px, 20%) 1fr;
   grid-template-rows: 1fr 5fr;
 }
 
@@ -23,6 +23,10 @@
   color: white;
   grid-row: 1 / 3;
   grid-column: 1 / 2;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 3rem 13rem 1fr;
 }
 
 .main-content {
@@ -31,4 +35,13 @@
   color: black;
   grid-row: 2 / 3;
   grid-column: 2 / 3;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 0.7rem 0;
 }
