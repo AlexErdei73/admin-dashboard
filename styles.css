@@ -174,10 +174,16 @@ h5 {
   padding: 0.5rem 0 3px 0;
 }
 
+.search {
+  display: flex;
+}
+
 .search button {
   border-radius: 50%;
   border: none;
   background: white;
+  padding-top: 5px;
+  margin-left: -10px;
 }
 
 .search input {
@@ -186,6 +192,7 @@ h5 {
   background: lightgray;
   width: calc(100% - 2rem);
   max-width: 600px;
+  margin-left: 0.5rem;
 }
 
 .user-info-other {
