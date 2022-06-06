@@ -205,6 +205,11 @@ h5 {
   margin-left: 1rem;
 }
 
+.logo img {
+  width: 32px;
+  height: auto;
+}
+
 li {
   display: flex;
   align-items: center;
@@ -212,6 +217,11 @@ li {
 
 li span {
   margin-left: 1rem;
+}
+
+li img {
+  width: 20px;
+  height: auto;
 }
 
 @media (min-width: 710px) {
